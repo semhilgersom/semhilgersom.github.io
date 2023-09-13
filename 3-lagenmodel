@@ -1,1 +1,52 @@
+<!DOCTYPE html> <!--dit is de homepage van mijn site-->
+<html> <!--dit is het html-element-->
+    <head>
+        <title>3-lagenmodel</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="opmaak.css">
+    </head>
+    <body>
+       <h1>Het 3-lagenmodel</h1> 
+      
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="binairstelsel.html">Binair stelsel</a></li>
+            <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+            <li><a href="bitmap.html">Bitmap</a></li>
+            <li><a href="3-lagenmodel.html">3-lagenmodel</a></li>
+        </ul>
 
+        <p> 
+            <h2>laag (Physical Layer):</h2>
+            
+          De fysieke laag is de onderste laag in dit model en omvat alle fysieke componenten en infrastructuur
+          die nodig zijn voor de werking van het systeem. Dit omvat hardwarecomponenten zoals servers, computers, netwerkapparaten, kabels en andere fysieke middelen. 
+          De fysieke laag behandelt zaken zoals de overdracht van elektrische signalen via kabels, draadloze communicatie en het beheer van hardwarebronnen. 
+          Het doel van deze laag is om een stabiele basis te bieden voor het functioneren van de logische en toepassingslagen.
+
+            <h2>Logische laag (Logical Layer):</h2>
+
+          De logische laag bevindt zich boven de fysieke laag en behandelt de verwerking van gegevens en de uitvoering van bedrijfslogica. 
+          Hier worden algoritmen, regels en procedures geïmplementeerd om gegevens te verwerken en te transformeren. 
+          Deze laag is verantwoordelijk voor het omzetten van ruwe gegevens in betekenisvolle informatie. 
+          Het omvat ook aspecten zoals databasebeheer, gegevensverwerking en beveiliging. 
+          De logische laag kan vaak onafhankelijk van de fysieke laag worden ontwikkeld en gewijzigd.
+        
+            <h2>Toepassingslaag (Application Layer):</h2>
+
+          De toepassingslaag is de bovenste laag in het model en omvat de gebruikersinterface en de daadwerkelijke toepassingslogica. 
+          Dit is het deel van het systeem waarmee gebruikers communiceren en waar ze toegang hebben tot de functionaliteit van de applicatie. 
+          De toepassingslaag omvat elementen zoals gebruikersinterfaces, rapporten, dashboards en andere interactieve componenten. 
+          Het doel van deze laag is om gebruikers in staat te stellen de software te gebruiken om hun taken uit te voeren. 
+          Het drielagenmodel met een fysieke laag, logische laag en toepassingslaag helpt om complexe informatiesystemen op een gestructureerde manier te ontwikkelen en te beheren. 
+          Het scheiden van de fysieke infrastructuur, de logica en de gebruikersinteractie maakt het gemakkelijker om wijzigingen aan te brengen in de afzonderlijke lagen zonder
+          dat dit grote invloed heeft op de andere lagen. Het bevordert ook modulaire ontwikkeling en maakt specialisatie mogelijk in verschillende 
+          aspecten van het systeem, waardoor teams met verschillende expertisegebieden kunnen samenwerken aan de ontwikkeling en onderhoud van de software.
+
+      </p>
+    
+
+        <img src="kleurmodel2.png" width="512px" height="384px">
+
+    </body> 
+</html>

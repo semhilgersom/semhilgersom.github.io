@@ -1,5 +1,5 @@
 /* Resetten van standaardmarges en padding */
-body, h1, h2, p, ul, li {
+body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
